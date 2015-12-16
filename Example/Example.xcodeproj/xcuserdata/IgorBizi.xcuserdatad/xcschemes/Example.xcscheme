@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7EB711971C1DF14F0065090D"
-               BuildableName = "ExampleBIZCircularProgressView.app"
-               BlueprintName = "ExampleBIZCircularProgressView"
-               ReferencedContainer = "container:ExampleBIZCircularProgressView.xcodeproj">
+               BlueprintIdentifier = "7E2236F71C219941008DB11A"
+               BuildableName = "Example.app"
+               BlueprintName = "Example"
+               ReferencedContainer = "container:Example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7EB711971C1DF14F0065090D"
-            BuildableName = "ExampleBIZCircularProgressView.app"
-            BlueprintName = "ExampleBIZCircularProgressView"
-            ReferencedContainer = "container:ExampleBIZCircularProgressView.xcodeproj">
+            BlueprintIdentifier = "7E2236F71C219941008DB11A"
+            BuildableName = "Example.app"
+            BlueprintName = "Example"
+            ReferencedContainer = "container:Example.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7EB711971C1DF14F0065090D"
-            BuildableName = "ExampleBIZCircularProgressView.app"
-            BlueprintName = "ExampleBIZCircularProgressView"
-            ReferencedContainer = "container:ExampleBIZCircularProgressView.xcodeproj">
+            BlueprintIdentifier = "7E2236F71C219941008DB11A"
+            BuildableName = "Example.app"
+            BlueprintName = "Example"
+            ReferencedContainer = "container:Example.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7EB711971C1DF14F0065090D"
-            BuildableName = "ExampleBIZCircularProgressView.app"
-            BlueprintName = "ExampleBIZCircularProgressView"
-            ReferencedContainer = "container:ExampleBIZCircularProgressView.xcodeproj">
+            BlueprintIdentifier = "7E2236F71C219941008DB11A"
+            BuildableName = "Example.app"
+            BlueprintName = "Example"
+            ReferencedContainer = "container:Example.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

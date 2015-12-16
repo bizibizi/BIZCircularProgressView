@@ -1,14 +1,13 @@
 //
 //  ViewController.m
-//  ExampleBIZCircularProgressView
+//  Example
 //
-//  Created by IgorBizi@mail.ru on 12/13/15.
+//  Created by IgorBizi@mail.ru on 12/16/15.
 //  Copyright © 2015 IgorBizi@mail.ru. All rights reserved.
 //
 
 #import "ViewController.h"
 #import "BIZCircularProgressView.h"
-#import "BIZProgressViewHandler.h"
 
 
 @interface ViewController () <ProgressViewHandlerDelegate>
@@ -30,15 +29,17 @@
     
     //Create with Code
     self.circularProgressViewForCode = [[BIZCircularProgressView alloc] initWithFrame:CGRectMake(100, 100, 150, 150)];
+    [self.view addSubview:self.circularProgressViewForCode];
+    //Customize
     self.circularProgressViewForCode.progressLineColor = [UIColor blackColor];
     self.circularProgressViewForCode.circleBackgroundColor = [UIColor yellowColor];
     self.circularProgressViewForCode.progressLineWidth = 5;
     self.circularProgressViewForCode.textLabel.textColor = [UIColor blackColor];
     self.circularProgressViewForCode.textLabel.font = [UIFont boldSystemFontOfSize:25];
-    [self.view addSubview:self.circularProgressViewForCode];
     self.progressViewHandlerForCode = [[BIZProgressViewHandler alloc] initWithProgressView:self.circularProgressViewForCode minValue:0 maxValue:5];
     
     //Create with Storyboard
+    //Customize
     self.circularProgressViewForStoryboard.progressLineWidth = 16;
     self.circularProgressViewForStoryboard.textLabel.font = [UIFont boldSystemFontOfSize:25];
     self.progressViewHandlerForStoryboard = [[BIZProgressViewHandler alloc] initWithProgressView:self.circularProgressViewForStoryboard minValue:0 maxValue:8];
@@ -63,5 +64,6 @@
     [alertController addAction:alertAction];
     [self presentViewController:alertController animated:YES completion:nil];
 }
+
 
 @end
