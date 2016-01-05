@@ -11,9 +11,12 @@ BIZCircularProgressView is a subclass of UIView that adds round progress view wi
 # Installation
 
 ### Manually
- - Copy BIZCircularProgressView folder to your project 
- - ```#import "BIZCircularProgressView.h"``` 
+ - Copy ```BIZCircularProgressView``` folder to your project 
 
+### From CocoaPods:
+```objective-c
+pod 'BIZCircularProgressView' 
+```
 
 # Usage
 
