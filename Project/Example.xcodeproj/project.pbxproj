@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E0241C41C3B48DE00F34A15 /* BIZCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0241C11C3B48DE00F34A15 /* BIZCircularProgressView.m */; settings = {ASSET_TAGS = (); }; };
+		7E0241C51C3B48DE00F34A15 /* BIZProgressViewHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0241C31C3B48DE00F34A15 /* BIZProgressViewHandler.m */; settings = {ASSET_TAGS = (); }; };
 		7E2236FD1C219941008DB11A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2236FC1C219941008DB11A /* main.m */; };
 		7E2237001C219941008DB11A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2236FF1C219941008DB11A /* AppDelegate.m */; };
 		7E2237031C219941008DB11A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2237021C219941008DB11A /* ViewController.m */; };
 		7E2237061C219941008DB11A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E2237041C219941008DB11A /* Main.storyboard */; };
 		7E2237081C219941008DB11A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E2237071C219941008DB11A /* Assets.xcassets */; };
 		7E22370B1C219941008DB11A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E2237091C219941008DB11A /* LaunchScreen.storyboard */; };
-		7E2237241C219CFD008DB11A /* BIZCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2237211C219CFD008DB11A /* BIZCircularProgressView.m */; settings = {ASSET_TAGS = (); }; };
-		7E2237251C219CFD008DB11A /* BIZProgressViewHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2237231C219CFD008DB11A /* BIZProgressViewHandler.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E0241C01C3B48DE00F34A15 /* BIZCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIZCircularProgressView.h; sourceTree = "<group>"; };
+		7E0241C11C3B48DE00F34A15 /* BIZCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIZCircularProgressView.m; sourceTree = "<group>"; };
+		7E0241C21C3B48DE00F34A15 /* BIZProgressViewHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIZProgressViewHandler.h; sourceTree = "<group>"; };
+		7E0241C31C3B48DE00F34A15 /* BIZProgressViewHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIZProgressViewHandler.m; sourceTree = "<group>"; };
 		7E2236F81C219941008DB11A /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E2236FC1C219941008DB11A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7E2236FE1C219941008DB11A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,10 +32,6 @@
 		7E2237071C219941008DB11A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E22370A1C219941008DB11A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E22370C1C219941008DB11A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7E2237201C219CFD008DB11A /* BIZCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIZCircularProgressView.h; sourceTree = "<group>"; };
-		7E2237211C219CFD008DB11A /* BIZCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIZCircularProgressView.m; sourceTree = "<group>"; };
-		7E2237221C219CFD008DB11A /* BIZProgressViewHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIZProgressViewHandler.h; sourceTree = "<group>"; };
-		7E2237231C219CFD008DB11A /* BIZProgressViewHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIZProgressViewHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,10 +45,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E0241BF1C3B48DE00F34A15 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7E0241C01C3B48DE00F34A15 /* BIZCircularProgressView.h */,
+				7E0241C11C3B48DE00F34A15 /* BIZCircularProgressView.m */,
+				7E0241C21C3B48DE00F34A15 /* BIZProgressViewHandler.h */,
+				7E0241C31C3B48DE00F34A15 /* BIZProgressViewHandler.m */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
 		7E2236EF1C219941008DB11A = {
 			isa = PBXGroup;
 			children = (
-				7E22371F1C219CFD008DB11A /* BIZCircularProgressView */,
+				7E0241BF1C3B48DE00F34A15 /* Classes */,
 				7E2236FA1C219941008DB11A /* Example */,
 				7E2236F91C219941008DB11A /* Products */,
 			);
@@ -84,18 +96,6 @@
 				7E2236FC1C219941008DB11A /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		7E22371F1C219CFD008DB11A /* BIZCircularProgressView */ = {
-			isa = PBXGroup;
-			children = (
-				7E2237201C219CFD008DB11A /* BIZCircularProgressView.h */,
-				7E2237211C219CFD008DB11A /* BIZCircularProgressView.m */,
-				7E2237221C219CFD008DB11A /* BIZProgressViewHandler.h */,
-				7E2237231C219CFD008DB11A /* BIZProgressViewHandler.m */,
-			);
-			name = BIZCircularProgressView;
-			path = ../BIZCircularProgressView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,9 +170,9 @@
 			files = (
 				7E2237031C219941008DB11A /* ViewController.m in Sources */,
 				7E2237001C219941008DB11A /* AppDelegate.m in Sources */,
-				7E2237241C219CFD008DB11A /* BIZCircularProgressView.m in Sources */,
+				7E0241C41C3B48DE00F34A15 /* BIZCircularProgressView.m in Sources */,
 				7E2236FD1C219941008DB11A /* main.m in Sources */,
-				7E2237251C219CFD008DB11A /* BIZProgressViewHandler.m in Sources */,
+				7E0241C51C3B48DE00F34A15 /* BIZProgressViewHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
